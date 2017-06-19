@@ -28,6 +28,7 @@ $(document).ready( function (){
     //set the pixel apearance properties, color set to white
     $('.pixel').css({'height':pix_size +'px',
                       'width':pix_size +'px',
+                      'vertical-align':'top',
                       'display':'inline-block',
                       'background-color':'rgb(255,255,255)'});
     }
